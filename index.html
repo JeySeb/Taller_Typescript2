@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/style.css">
+    <title>Taller 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+
+
+                <div class="card">
+                    <div class="whitebox">
+                        <div class="card-body">
+                            <h5 class="card-title">Juan Sebastián Pinzón</h5>
+                            <img class="img-fluid max-width: 100% height: auto" src="./avatar.png" alt="Avatar">`
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    <div class="whitebox">
+                        <div class="card-body">
+                            <h5 class="card-title">Datos Personales</h5>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="student">
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                
+                <div class="whitebox">
+
+                    <div class="card">
+                        <div class="whitebox">
+                            <h5 class="card-title">Cursos Actuales</h5>
+                            <h6>Filtrar por nombre</h6>
+                            <form style="margin:10px;">
+                                <div class="form-row">
+                                  <div class="col">
+                                      <input type="text" class="form-control" id="search-box" placeholder="Nombre del curso">
+                                  </div>
+                                  <div class="col">
+                                      <button type="button" id="button-filterByName" class="btn btn-success">Aplicar</button>
+                                  </div>
+                                </div>
+                            </form>
+                            
+                            <h6>Filtrar por creditos</h6>
+                            <form style="margin:10px;">
+                                <div class="form-row">
+                                  <div class="col">
+                                      <input type="number" class="form-control" id="search-box-ci" placeholder="Valor inferior">
+                                      <input type="number" class="form-control" id="search-box-cf" placeholder="Valor superior">
+                                  </div>
+                                  <div class="col">
+                                      <button type="button" id="button-filterByCredits" class="btn btn-success">Aplicar</button>
+                                  </div>
+                                </div>
+                            </form>
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Curso</th>
+                                        <th>Profesor</th>
+                                        <th>Créditos</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody id="courses">
+                                    
+                                </tbody>
+                            </table>
+                            Total de creditos:  <area id="total-credits"> </area>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script type="module" src="./scripts/course.js" ></script>
+    <script type="module" src="./scripts/dataCourses.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+/* Add your styles here */
+
+.titulo {
+  background-color: #312b2b;
+  margin: 1rem;
+  padding: 0rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  color:#ffffff;
+  font-size: 26px;
+  font-family: "Cursive", "Lucida Handwriting", serif;
+}
+
+.imagen {
+  background-color: #b5e5fc;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0px solid rgb(196, 189, 189);
+  text-align: center;
+  width: 350px;
+  height: 250px;
+}
+
+.texto {
+  background-color: #f7f0b5;
+  margin: 0rem;
+  padding: 1rem;
+  border: 1px solid rgb(196, 189, 189);
+ font-family: "Monospace", "Lucida Console", serif;
+
+}
+
+.texto2 {
+  background-color: #f0e7e7;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid rgb(196, 189, 189);
+}
+
+
+.cuadrito {
+  background-color: #e78e8e;
+  margin: 0rem;
+  padding: 0rem;
+  border: 1px solid rgb(0, 0, 0);
+  font-family: "Lucida Console", "Courier New", monospace;
+  height: 50px;
+  text-align: center;
+}
+.whitebox{
+  background-color: #ffffff;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
